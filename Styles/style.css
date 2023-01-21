@@ -1,0 +1,74 @@
+
+body {
+    background-image: radial-gradient(blue, purple);
+    margin: 3in;
+}
+
+img {
+position: absolute;
+top: 3%;
+left: 34.6%;
+width: 4in;
+border-radius: 80px;
+border-style: dashed;
+border-width: 10px;
+border-color: rgb(0, 0, 0);
+}
+
+p {
+    background-color: antiquewhite;
+    width: 4in;
+    margin-left: 1.85in;
+    margin-right: 3in;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(229, 139, 22);
+    width: 4in;
+    margin-top: 25px;
+    margin-left: 1.85in;
+    margin-right: 3in;
+    font-size: 30pt;
+    position: relative;
+    justify-content: center;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(194, 117, 16);
+}
+
+.Dislike {
+    background-image: url(/images/images.jpg);
+    background-size: contain;    
+}
+
+.Like {
+    background-image: url(/images/images-2.png);
+    background-size: contain; 
+    text-align: left;
+}
+
+input {
+    margin-left: 1.85in;
+    margin-right: 3in;
+    width: 3.93in;
+    height: .5in;
+    font-size: 36pt;
+}
+
+h3 {
+    margin-left: 1.85in;
+    margin-right: 3in;
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+}
+
+
