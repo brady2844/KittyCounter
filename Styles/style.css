@@ -69,8 +69,14 @@ h3 {
     font-size: 25pt;
     width: fit-content;
     text-align: left;
+    margin: 10px;
+    flex-basis: 10%;
 }
 
-.message-container {
-text-align: left;
+#message-container {
+display: flex;
+flex-direction: column;
+background-color: white;
+margin-bottom: 5in;
+padding-bottom: 500px;
 }

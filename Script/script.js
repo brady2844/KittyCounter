@@ -12,9 +12,9 @@ function like() {
 
 
   function comment() {
-    var input = document.getElementById("commentCounter");
-    var currentComments = parseInt(commentCounnter.innerHTML);
-    commentCounter,innerHTML = currentComments + 1
+    var commentCounter = document.getElementById("commentCounter");
+    var currentComments = parseInt(commentCounter.innerHTML);
+    commentCounter.innerHTML = currentComments + 1;
   }
 
   
@@ -25,9 +25,13 @@ function like() {
   }
 
 
-document.getElementById("text-input").addEventListener("keyup", function(event){
-    event.preventDefault();
-    if (event.keyCode === 13) {
-        document.getElementById("submitBtn").submit();
-    } 
-} )
+document.addEventListener(
+  "keypress",
+  (event) => {
+    var name = event.key;
+    if (name === "Enter") {
+      addMessage(), comment();
+    }
+  },
+  false
+);
