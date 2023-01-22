@@ -30,8 +30,13 @@ document.addEventListener(
   (event) => {
     var name = event.key;
     if (name === "Enter") {
-      addMessage(), comment();
+      addMessage(), comment(), clearInput();
     }
   },
   false
 );
+
+
+function clearInput() {
+document.getElementById('text-input').value = " "
+}

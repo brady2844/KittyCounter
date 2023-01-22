@@ -13,6 +13,7 @@ border-radius: 80px;
 border-style: dashed;
 border-width: 10px;
 border-color: rgb(0, 0, 0);
+flex-direction: row !important;
 }
 
 p {
@@ -29,7 +30,7 @@ p {
 }
 
 button {
-    background-color: rgb(229, 225, 220);
+    background-color: rgb(0, 0, 0);
     width: 4in;
     margin-top: 25px;
     margin-left: 2.4in;
@@ -37,11 +38,11 @@ button {
     font-size: 30pt;
     position: relative;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 button:hover {
-    background-color: rgb(194, 117, 16);
+    background-color: rgb(49, 49, 49);
 }
 
 .Dislike {
@@ -64,7 +65,6 @@ input {
 }
 
 h3 {
-    background-color: burlywood;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25pt;
     width: fit-content;
@@ -79,4 +79,9 @@ flex-direction: column;
 background-color: white;
 margin-bottom: 5in;
 padding-bottom: 500px;
+margin-left: 1.9in;
+margin-right: 1.99in;
+border-style: groove;
+border-width: 10px;
+border-color: rgb(87, 74, 74);
 }
